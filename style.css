@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+table{
+    /* border: 1px solid black; */
+}
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    background-color: rgb(240, 240, 234);
+    color:rgb(17, 16, 16);
+}
+body{
+    background-color: rgb(108, 197, 197);
+    
+}
+td{
+    padding-left: 10px;
+    border: 0.1px solid  black;
+   color: black;
+   font-style: oblique;
+}
+td:hover{
+    text-align: center;
+  background-color: rgb(245, 88, 88);
+  color: rgb(7, 2, 82);
+  font-style: italic;
+  font-weight: 300;
+}
+th{
+    border: 1px solid black;
+    font-style: italic;
+    color:rgb(126, 4, 4);
+}
+th:hover{
+    text-align: center;
+  background-color: rgb(248, 153, 153);
+  color: rgb(143, 158, 6);
+  font-style: italic;
+  font-weight: 300;
+}
